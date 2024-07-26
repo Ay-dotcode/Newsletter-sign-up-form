@@ -15,9 +15,11 @@ const emailError = document.getElementById("emailError");
 const userEmail = document.getElementById("userEmail");
 const mainBody = document.getElementById("mainBody");
 const otherSect = document.getElementById("otherSect");
+const dismiss = document.getElementById("dismiss");
 
 submit.addEventListener("click", validate);
 email.addEventListener("input", check);
+dismiss.addEventListener("click", close);
 
 function validate() {
     if (email.value === "" || !email.value.includes("@")) {
@@ -36,4 +38,8 @@ function validate() {
 function check() {
     emailError.style.display = 'none';
     email.classList.remove('error');
+}
+function close() {
+    mainBody.style.display = 'flex';
+    otherSect.style.display = 'none';
 }
