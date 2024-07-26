@@ -15,7 +15,7 @@ main {
     font-family: Roboto;
 }
 
-.mainSect {
+#mainSect {
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,7 @@ main {
 
 #emailError {
     color: hsl(9, 100%, 64%);
+    display: none;
 }
 
 #email {
@@ -64,10 +65,6 @@ main {
     outline: none;
     border-radius: 10px;
     font-size: 1.1rem;
-}
-
-#email:focus {
-    outline: none;
 }
 
 .error {
@@ -102,7 +99,15 @@ main {
     font-weight: 700;
 }
 
+#otherSect {
+    width: 375px;
+    padding: 1rem;
+    flex-direction: column;
+    display: none;
+}
+
 #dismiss {
     position: absolute;
     bottom: 0;
+    align-self: center;
 }
