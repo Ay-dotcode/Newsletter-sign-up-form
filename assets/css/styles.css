@@ -10,9 +10,11 @@ body {
     height: 100vh;
 }
 
-main {
+#mainBody {
     width: 375px;
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
 }
 
 #mainSect {
