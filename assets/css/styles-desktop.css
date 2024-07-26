@@ -1,3 +1,22 @@
 @media (min-width: 48em) {
-    
+    #mainBody {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 810px;
+        border-radius: 20px;
+    }
+
+    #mainSect {
+        padding: 2rem;
+    }
+
+    #illustration {
+        content: url("/assets/images/illustration-sign-up-desktop.svg");
+        width: 20rem;
+        margin-right: 1rem;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
 }

@@ -8,6 +8,7 @@ body {
     display: grid;
     place-items: center;
     height: 100vh;
+    background-color: hsl(234, 29%, 20%);
 }
 
 #mainBody {
@@ -15,6 +16,7 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 #mainSect {
@@ -61,7 +63,6 @@ body {
 }
 
 #email {
-    width: calc(375px - 2rem);
     padding: 1rem;
     border: 1px solid grey;
     outline: none;
@@ -86,10 +87,10 @@ body {
     margin: 1.5rem 0;
     font-size: 1.1rem;
     cursor: pointer;
-    width: calc(375px - 2rem);
 }
 
-#submit:hover, #dismiss:hover {
+#submit:hover,
+#dismiss:hover {
     background: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(20, 100%, 50%));
 }
 
