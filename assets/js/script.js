@@ -8,3 +8,7 @@
 // };
 
 // form.addEventListener("submit", handleSubmit);
+
+const email = document.getElementById("email");
+const submit = document.getElementById("submit");
+const userEmail = document.getElementById("userEmail");

@@ -58,7 +58,8 @@ main {
     font-size: 1.1rem;
 }
 
-.submit {
+#submit,
+#dismiss {
     background-color: hsl(235, 18%, 26%);
     color: white;
     padding: 1.2rem;
@@ -70,7 +71,7 @@ main {
     width: calc(375px - 2rem);
 }
 
-.submit:hover {
+#submit:hover {
     background: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(20, 100%, 50%));
 }
 
@@ -82,7 +83,7 @@ main {
     font-weight: 700;
 }
 
-#buttom {
+#dismiss {
     position: absolute;
     bottom: 0;
 }
