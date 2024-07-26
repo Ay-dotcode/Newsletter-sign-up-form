@@ -87,7 +87,7 @@ main {
     width: calc(375px - 2rem);
 }
 
-#submit:hover {
+#submit:hover, #dismiss:hover {
     background: linear-gradient(90deg, hsl(4, 100%, 67%), hsl(20, 100%, 50%));
 }
 

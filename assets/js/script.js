@@ -27,7 +27,6 @@ function validate() {
     }
     else {
         userEmail.innerHTML = email.value;
-        email.value = "";
         emailError.style.display = 'none';
         email.classList.remove('error');
         mainBody.style.display = 'none';
