@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 375px;
+
+    border: 2px solid black;
+}
+
+#illustration {
+    content: url("/assets/images/illustration-sign-up-mobile.svg");
+}
