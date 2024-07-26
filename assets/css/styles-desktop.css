@@ -19,4 +19,11 @@
     .heading {
         font-size: 3.5rem;
     }
+
+    #otherSect {
+        height: fit-content;
+        padding: 3rem;
+        width: 29rem;
+        border-radius: 20px;
+    }
 }
